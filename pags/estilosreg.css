@@ -18,7 +18,7 @@ body{
   align-items: center;
   height: 100vh;
   /* imagen de fondo */
-  background: url(img/fondo.png);
+  background: url(../img/fondo.png);
    background-size: cover; /* Para que la imagen cubra toda la página */
   background-repeat: no-repeat; /* Para que la imagen no se repita */
 }
