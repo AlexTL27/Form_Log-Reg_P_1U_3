@@ -13,34 +13,25 @@ html {
 }
 
 
-
-/* Sección del form */
-body {
-  height: 100vh; /* ocupa toda la pantalla */
-  display: flex;
-  flex-direction: column; /* para apilar el título, imagen y formulario */
- /* centra verticalmente */
-  align-items: center; /* centra horizontalmente */
-  background-color: #f4f4f4; /* opcional */
-  font-family: sans-serif;
-  
-  
+/* CUERPO */
+body{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* imagen de fondo */
+  background: url(img/fondo.png) center;
 }
-
-.title-container{
-  margin-bottom: 20px;
+.container{
+  width: 300px;
+ 
+  /* EFECTO GLASS */
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
 }
-
-.title-container h2{
-  font-size: 2rem;
+.text-center{
+  text-align: center;
 }
-
-.card-image {
-  border: 1px solid black;
-  margin-bottom: 40px;
-}
-.card-image img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
+form{
 }
